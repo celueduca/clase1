@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Ejercicio Rodrigo</h1>
+    <ul>
+        <li>Crear dos campos de tipo numero</li>
+        <li>Campo con tipo de operacion (+, -, /, *)</li>
+        <li>Mostrar el resultado</li>
+    </ul>
+    <form name="Formulario Numerico" action="#" onsubmit="return calcularOperacion()">
+        <input type="number" placeholder="Primer Numero" name="numero1" id="numero1"/>
+        <input type="number" placeholder="Segundo Numero" name="numero2" id="numero2"/> 
+        <select id="opciones" name="opciones">
+            <option value="0">Operador</option>
+            <option value="1">+</option>
+            <option value="2">-</option>
+            <option value="3">*</option>
+            <option value="4">/</option>
+        </select>
+        <input type="submit" value="calcularOperacion"/>
+        <label id="labelResultado">Resultado :0</label>
+        <input type="text" name="resultado" id="resultado" disabled>
+    </form>
+
+    <script type="text/javascript" src="./indexejercicio.js"></script>
+</body>
+</html>
