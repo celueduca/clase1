@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+</head>
+<body>
+    <h1>Calculadora</h1>
+    <form name="cal">
+        <input id="num1" type="number" placeholder="Primer Numero"/><br><br>
+        <input id="num2" type="number" placeholder="Segundo Numero"/><br><br>
+        <td>Operacion:</td>
+        <select id="operador">
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+            <option value="/">/</option>
+        </select>  <br><br>    
+        <td>Resultado: </td><td><input type="text" name="resultado" id="resultado"></td><br><br>
+    </form>
+    <button value="Calcular" Onclick="obtenerVariables()">Calcular</button><br><br>
+    <script type="text/javascript" src="./calculadoraJO.js">
+        
+        
+    </script>
+    
+</body>
+</html>
